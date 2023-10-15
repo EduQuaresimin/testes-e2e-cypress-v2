@@ -30,7 +30,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
     cy.deleteNote(updatedDescription)
     cy.wait('@getNotes')
   })
-  it('logs out', () => {
+  it('logs out', { tags: '@desktop-and-tablet' }, () => {
     cy.visit('/')
     cy.wait('@getNotes')
 
