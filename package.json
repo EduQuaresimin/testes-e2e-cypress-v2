@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/EduQuaresimin/testes-e2e-cypress-v2#readme",
   "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
     "cypress": "^12.17.3",
-    "cypress-mailosaur": "^2.13.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mailosaur": "^2.14.0",
     "eslint": "^8.47.0",
     "eslint-plugin-cypress": "^2.14.0"
   }
