@@ -4,8 +4,10 @@
   "description": "End-2-end tests course with cypress",
   "main": "index.js",
   "scripts": {
-    "cy:test": "yarn cypress run",
-    "cy:open": "yarn cypress open",
+    "cy:open": "cypress open",
+    "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
+    "cy:test": "cypress run",
+    "cy:test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js",
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
     "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix"
   },
