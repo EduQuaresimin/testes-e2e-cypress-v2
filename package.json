@@ -1,7 +1,7 @@
 {
   "name": "testes-e2e-cypress-v2",
   "version": "1.0.0",
-  "description": "End-2-end tests course with cypress",
+  "description": "Sample project to demonstrate e2e tests written with Cypress running on GitHub Actions",
   "main": "index.js",
   "scripts": {
     "test:cloud": "cypress run --record --tag 'desktop'",
