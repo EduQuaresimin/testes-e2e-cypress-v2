@@ -1,4 +1,4 @@
-# End-to-end Testing with Cypress 
+# End-to-end Testing with Cypress  
 
 Sample project to demonstrate end-to-end (e2e) tests written with [Cypress](https://cypress.io) running on GitHub Actions.
 
